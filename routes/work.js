@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET work page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'tele-funk home' });
+    res.render('work', { title: "My Work" });
 });
 
 module.exports = router;
