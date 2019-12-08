@@ -12,6 +12,15 @@
           <h3 class="col-md-9 text-right">. . .or at least my website</h3>
         </div>
       </section>
+
+      <% for(var i = 0; i < posts.length; i++){ %>
+        <article>
+          <h1><a href="/post/<%= posts[i].permalink %>"><%= posts[i].title %></a></h1>
+          <div>
+            <%- posts[i].postContent %>
+          </div>
+        </article>
+      <% } %>
     </main>
 
     <% include partials/aside %>
