@@ -1,8 +1,29 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.my-nav {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
 }
 
-a {
-  color: #00B7FF;
+.my-brand {
+    /* background-color: #000;
+    color: white;
+    border-radius: 50%; */
+    font-size: 3rem;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.my-aside-widget {
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+.my-aside-widget-title {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: -2.25rem;
+    margin-bottom: 1.5rem;
 }

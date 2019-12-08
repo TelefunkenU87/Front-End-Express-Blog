@@ -1,11 +1,38 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<% include partials/head %>
+
+<div class="container">
+  <div class="row">
+    <main class="col-md-9">
+      <section class="container">
+        <h1 class="col-md-9">Welcome to my world. . .</h1>
+        <div class="row justify-content-center">
+          <img src="/images/Tanuki.JPG" class="img-fluid col-md-9" alt="A statue of Tanuki standing outside a shop">
+        </div>
+        <div class="row justify-content-end">
+          <h3 class="col-md-9 text-right">. . .or at least my website</h3>
+        </div>
+      </section>
+    </main>
+
+    <aside class="col-md-3">
+      <section class="my-aside-widget">
+        <H4 class="my-aside-widget-title">Hello!</H4>
+        <img src="/images/trashPandaWork.png" class="img-fluid" alt="a raccoon at a computer desk in business attire">
+        <a class="nav-link" href="/about.html">About Me</a>
+      </section>
+      <section class="my-aside-widget">
+        <h4 class="my-aside-widget-title">Social Media</h4>
+        <ul>
+          <li>
+            <a href="https://github.com/TelefunkenU87">GitHub</a>
+          </li>
+          <li>
+            <a href="https://mastodon.technology/@TelefunkenU87">Mastodon</a>
+          </li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<% include partials/foot %>
