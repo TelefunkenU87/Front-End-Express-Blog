@@ -1,9 +1,11 @@
-var express = require('express');
-var router = express.Router();
+let express = require('express'),
+    router = express.Router();
 
 /* GET about page. */
 router.get('/', function (req, res, next) {
-    res.render('about', { title: "About Me" });
+    res.render('about', { 
+        title: "About Me"
+     });
 });
 
 module.exports = router;

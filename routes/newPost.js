@@ -1,6 +1,6 @@
-let express = require('express');
-let router = express.Router();
-let repo = require('../models/postRepository');
+let express = require('express'),
+    router = express.Router(),
+    repo = require('../models/postRepository');
 
 // GET sends the user the new post page with the form to enter the post
 router.get('/', (req, res, next) => {
